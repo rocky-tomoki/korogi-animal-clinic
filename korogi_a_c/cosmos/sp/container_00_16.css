@@ -1,0 +1,218 @@
+@charset "Shift_JIS";
+
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font: 12px/1.4 "ヒラギノ角ゴ Pro W3" , "ＭＳ Ｐゴシック" , "Hiragino Kaku Gothic Pro" , "MS PGothic" , sans-serif;
+    -webkit-text-size-adjust: none;
+}
+
+/* スキップリンクの非表示 */
+#hpb-skip{
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+body.hpb-layoutset-02 #hpb-skip{
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+/* ヘッダー */
+
+#hpb-header{
+    margin-top: -1px;
+    width: 100%;
+}
+
+#hpb-headerMain{
+    background-color: #ffd7d7;
+}
+
+#hpb-headerMain h1{
+    text-align: left;
+    font-size: 10px;
+    font-weight: normal;
+    margin: 0 0 0 0;
+    padding: 3px 5px 0 5px;
+}
+
+#hpb-headerLogo{
+    padding-top: 22px;
+    padding-bottom: 5px;
+    background-image : url(bg_header_00_16.png);
+    background-repeat: repeat-x;
+    background-position: top left;
+}
+
+#hpb-headerLogo a{
+    display: block;
+    background-position: left top;
+    background-repeat: no-repeat;
+    width: 276px;
+    height: 34px;
+    text-indent: -9999px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#hpb-headerExtra1{
+    display: none;
+}
+
+#hpb-headerExtra2{
+    display: none;
+}
+
+/* インナー */
+
+/* タイトル */
+
+.hpb-layoutset-02 #hpb-title h2{
+    padding-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+/* ナビゲーション */
+
+#hpb-nav ul{
+    margin-bottom: 6px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#hpb-nav ul:after{
+    content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+#hpb-nav ul li{
+    display: inline;
+    margin: 0 -1px;
+}
+#hpb-nav ul li a{
+    display: inline-block;
+    width: 155px;
+    background-image : url(ico_nav_00_16.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #993333;
+    text-decoration: none;
+    height: 34px;
+    padding-top: 18px;
+    overflow: hidden;
+    text-shadow: 1px 1px 1px #fff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+h3.hpb-c-index{
+    height: 1px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    background: none;
+}
+
+
+/* メインコンテンツ */
+
+img, img a{
+    border: none !important;
+}
+
+/* フッター */
+
+#hpb-footerMain{
+    padding-top: 25px;
+    padding-bottom: 11px;
+    color: #cc3333;
+    background-color: #ffd7d7;
+    background-image : url(bg_footer_00_16.png);
+    background-repeat: repeat-x;
+    background-position: top left;
+}
+
+#hpb-footerMain p{
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* サイドバー領域 */
+
+#hpb-aside{
+    margin: 10px 8px 10px 8px;
+}
+
+#hpb-aside h3 .en{
+    text-transform: uppercase;
+}
+
+#banner ul{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+#banner ul li{
+    margin-bottom: 5px;
+    line-height: 1.1;
+    border-width: 1px;
+    border-color: #fbcccc;
+    border-style: solid;
+    -webkit-border-radius: 6px;
+    padding: 0;
+    background-color: #ffecec;
+    -webkit-box-shadow: 2px 2px 2px #eee;
+}
+
+#banner ul li a{
+    background-image : url(banner_3A_011112111.png);
+    background-repeat: no-repeat;
+    background-position: 5px 8px;
+    padding: 8px 10px 8px 18px;
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    color: #333;
+}
+
+/* PC版からの変換対応 */
+
+#hpb-main #pagetop, #footerExtra1 #pagetop{
+    display: none;
+}
+
+hr{
+    border-width: 1px 0px 0px 0px;
+    border-style: solid;
+    border-color: #ffecec;
+    height: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
