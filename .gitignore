@@ -149,3 +149,4 @@ seo-audit/
 # Documentation files
 doc/
 .claude/
+.specstory/
