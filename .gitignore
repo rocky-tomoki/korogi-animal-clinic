@@ -145,3 +145,7 @@ performance/
 # SEO audit files
 seo-audit/
 *.audit.json
+
+# Documentation files
+doc/
+.claude/
