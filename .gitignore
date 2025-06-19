@@ -150,3 +150,6 @@ seo-audit/
 doc/
 .claude/
 .specstory/
+
+# Cursor IDE
+.cursorindexingignore
